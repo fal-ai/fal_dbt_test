@@ -11,7 +11,7 @@ buf = io.StringIO()
 df.info(buf=buf)
 info = buf.getvalue()
 
-output = output + f"\nModel dataframe informationz:\n{info}"
+output = output + f"\nModel dataframe information:\n{info}"
 
 f = open(f"fal_output/{model_name}", "w")
 f.write(output)
