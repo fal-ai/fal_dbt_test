@@ -1,2 +1,2 @@
 # Core dependencies
-dbt-core==0.21.0
+dbt-postgres==1.0.0
