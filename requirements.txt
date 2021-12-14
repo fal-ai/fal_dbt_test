@@ -1,2 +1,0 @@
-# Core dependencies
-dbt-core==0.21.0
