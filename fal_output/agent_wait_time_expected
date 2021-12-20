@@ -10,4 +10,3 @@ Data columns (total 3 columns):
  1   y       76 non-null     object
  2   ds      76 non-null     object
 dtypes: object(3)
-memory usage: 1.9+ KB

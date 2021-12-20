@@ -7,7 +7,7 @@ for model in models:
         current = open(f"fal_output/{model}", "r").read()
         assert expected == current
     except AssertionError:
-        print("ERROR:")
+        print(f"Error for {model}:")
         print(f"Expected: {expected}")
         print(f"Got: {current}")
         raise Exception("Did not get expected output")

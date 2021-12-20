@@ -43,4 +43,3 @@ Data columns (total 36 columns):
  34  followup_ids             1 non-null      object        
  35  via_followup_source_id   0 non-null      object        
 dtypes: bool(3), datetime64[ns](3), object(30)
-memory usage: 2.7+ KB
