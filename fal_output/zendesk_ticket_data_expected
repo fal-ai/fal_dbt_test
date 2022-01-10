@@ -6,7 +6,7 @@ RangeIndex: 10 entries, 0 to 9
 Data columns (total 36 columns):
  #   Column                   Non-Null Count  Dtype         
 ---  ------                   --------------  -----         
- 0   id                       10 non-null     object        
+ 0   id                       10 non-null     float64
  1   _fivetran_synced         10 non-null     datetime64[ns]
  2   allow_channelback        10 non-null     bool          
  3   assignee_id              8 non-null      object        
@@ -42,4 +42,4 @@ Data columns (total 36 columns):
  33  via_source_from_address  0 non-null      object        
  34  followup_ids             1 non-null      object        
  35  via_followup_source_id   0 non-null      object        
-dtypes: bool(3), datetime64[ns](3), object(30)
+dtypes: bool(3), datetime64[ns](3), float64(1), object(29)
