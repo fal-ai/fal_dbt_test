@@ -20,6 +20,16 @@ models:
     description: Agent wait time series
     config:
       materialized: table
+    columns:
+      - name: y
+        tests:
+          - not_null
+      - name: ds
+        tests:
+          - not_null
+      - name: a
+        tests:
+          - unique
     meta:
       fal:
         scripts:
