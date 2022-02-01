@@ -2,9 +2,10 @@ import pandas as pd
 import io
 
 model_name = context.current_model.name
+
 output = f"Model name: {model_name}"
 
-if len(context.current_model.tests) > 0:
+if hasattr(context.current_model, 'tests') and len(context.current_model.tests) > 0:
     for test in context.current_model.tests:
         output += f"\nRan {test.name} for {test.column}, result: {test.status}"
     f = open(f"fal_output/{model_name}_test", "w")
